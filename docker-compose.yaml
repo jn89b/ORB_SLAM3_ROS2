@@ -58,12 +58,6 @@ services:
       - "/dev/gpiochip0:/dev/gpiochip0"
       - "/dev/gpiochip4:/dev/gpiochip4" # Add additional lines as needed
     volumes:
-      - ./ros_mpc:/develop_ws/src/ros_mpc:rw
-      - ./drone_ros:/develop_ws/src/drone_ros:rw
-      - ./drone_interfaces:/develop_ws/src/drone_interfaces:rw
-      - ./pew_pew:/develop_ws/src/pew_pew:rw
-      - ./ros2_template_package:/develop_ws/src/ros2_template_package:rw
-      - ./rviz_drone:/develop_ws/src/rviz_drone:rw
       # - ./optimization:/develop_ws/src/optimization:rw
       - ./useful_shell_scripts:/develop_ws/useful_shell_scripts:rw
       # - ./unity_robotics_demo:/develop_ws/src/unity_robotics_demo:rw
