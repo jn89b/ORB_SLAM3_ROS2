@@ -1,7 +1,7 @@
 services:
   # Base image containing dependencies.
   base:
-    image: template:base
+    image: slam3:base
     build:
       context: .
       dockerfile: docker/Dockerfile
@@ -30,7 +30,7 @@ services:
   # develop image containing the example source code.
   develop:
     extends: base
-    image: template:develop
+    image: slam3:develop
     build:
       context: .
       dockerfile: docker/Dockerfile

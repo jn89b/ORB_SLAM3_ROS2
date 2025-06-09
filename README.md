@@ -1,10 +1,9 @@
-# ROS Docker Template
-This repository provides a dockerfile to integrate ROS2 humble with a raspberry pi to control a drone via MAVLINK protocol.
+# ROS ORB SLAM
+This repo is used for ORB SLAM3 applications to be interfaced with ROS2
 
 ## Initial Install Docker
 - If you are raspberry pi or an arm64 architecture follow this link to install docker https://docs.docker.com/engine/install/debian/
   - Otherwise use this link https://docs.docker.com/engine/install/raspberry-pi-os/
-
 
 ## Setup
 First off make the shell scripts inside the docker directory executable do this by doing the following command
