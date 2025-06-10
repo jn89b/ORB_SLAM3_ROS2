@@ -59,6 +59,7 @@ services:
       - "/dev/gpiochip4:/dev/gpiochip4" # Add additional lines as needed
     volumes:
       # - ./optimization:/develop_ws/src/optimization:rw
+      - ./ros2_orb_slam3:/develop_ws/src/ros2_orb_slam3:rw
       - ./useful_shell_scripts:/develop_ws/useful_shell_scripts:rw
       # - ./unity_robotics_demo:/develop_ws/src/unity_robotics_demo:rw
       # - ./unity_robotics_demo_msgs:/develop_ws/src/unity_robotics_demo_msgs:rw
